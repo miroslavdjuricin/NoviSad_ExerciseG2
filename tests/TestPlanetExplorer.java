@@ -23,6 +23,14 @@ public class TestPlanetExplorer {
 		vozilo.moveBack();
 		assertEquals("Nazad", "(3, 2, N)", vozilo.getFormatedCoordinates());
 	}
+	
+	public void test_moveLeft() throws PlanetExplorerException
+	{
+		PlanetExplorer vozilo = new PlanetExplorer (3, 3, "N");
+		vozilo.moveLeft();
+		assertEquals("Levo", "(3, 3, W)", vozilo.getFormatedCoordinates());
+	}
+	
 
 	
 }

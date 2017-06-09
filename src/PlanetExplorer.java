@@ -48,6 +48,19 @@ public class PlanetExplorer {
 			this.x--;
 	}
 	
+	public void moveLeft() throws PlanetExplorerException
+	{
+		if (direction == "N")
+			this.direction = "W";
+		else if (direction == "W")
+			this.direction = "S";
+		else if (direction == "S")
+			this.direction = "E";
+		else if (direction == "E")
+			this.direction = "N";
+		else new throw ("Nije moguce pomeranje u levo");
+	}
+	
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
