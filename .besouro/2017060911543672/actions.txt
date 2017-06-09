@@ -26,3 +26,10 @@ RefactoringAction 1497002994646 PlanetExplorer.java RENAME moveForth=>void moveF
 RefactoringAction 1497003150986 PlanetExplorer.java ADD ex PlanetExlorerException() METHOD
 RefactoringAction 1497003163077 PlanetExplorer.java REMOVE PlanetExlorerException() METHOD
 EditAction 1497003164922 PlanetExplorer.java 1565 3 7 0
+CompilationAction 1497003167899 PlanetExplorer.java
+CompilationAction 1497003167901 TestPlanetExplorer.java
+CompilationAction 1497003167902 TestPlanetExplorer.java
+CompilationAction 1497003167904 TestPlanetExplorer.java
+CompilationAction 1497003167905 TestPlanetExplorer.java
+RefactoringAction 1497003300637 PlanetExplorerException.java ADD PlanetExplorerException(String) METHOD
+EditAction 1497003330158 PlanetExplorerException.java 145 1 1 0
