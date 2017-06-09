@@ -25,7 +25,13 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	
+	public void moveForth() throws PlanetExlorerException
+	{
+		if(this.direction == "N")
+			this.y++;
+		if(this.direction == "W")
+			this.x++;
+	}
 	
 	public String executeCommand(String command){
 		

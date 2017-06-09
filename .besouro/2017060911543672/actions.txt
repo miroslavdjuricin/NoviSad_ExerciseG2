@@ -17,3 +17,12 @@ RefactoringAction 1497002903498 PlanetExplorer.java ADD String direction FIELD
 RefactoringAction 1497002917070 PlanetExplorer.java ADD String ob FIELD
 RefactoringAction 1497002919598 PlanetExplorer.java RENAME ob=>String obstacles FIELD
 EditAction 1497002976803 PlanetExplorer.java 1424 2 5 0
+CompilationAction 1497002979773 TestPlanetExplorer.java
+CompilationAction 1497002979774 TestPlanetExplorer.java
+CompilationAction 1497002979777 TestPlanetExplorer.java
+CompilationAction 1497002979778 TestPlanetExplorer.java
+RefactoringAction 1497002993610 PlanetExplorer.java ADD void moveForth FIELD
+RefactoringAction 1497002994646 PlanetExplorer.java RENAME moveForth=>void moveForth() METHOD
+RefactoringAction 1497003150986 PlanetExplorer.java ADD ex PlanetExlorerException() METHOD
+RefactoringAction 1497003163077 PlanetExplorer.java REMOVE PlanetExlorerException() METHOD
+EditAction 1497003164922 PlanetExplorer.java 1565 3 7 0
