@@ -5,3 +5,15 @@ RefactoringAction 1497002506152 TestPlanetExplorer.java ADD void test_ FIELD
 RefactoringAction 1497002509175 TestPlanetExplorer.java RENAME test_=>void test_moveForth FIELD
 RefactoringAction 1497002512703 TestPlanetExplorer.java RENAME test_moveForth=>void test_moveForth() METHOD
 EditAction 1497002815139 TestPlanetExplorer.java 398 2 1 0
+CompilationAction 1497002818361 TestPlanetExplorer.java
+CompilationAction 1497002818363 TestPlanetExplorer.java
+CompilationAction 1497002818364 TestPlanetExplorer.java
+CompilationAction 1497002818365 TestPlanetExplorer.java
+UnitTestCaseAction 1497002826726 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002826732 TestPlanetExplorer.java FAIL
+RefactoringAction 1497002855813 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1497002855816 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1497002903498 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1497002917070 PlanetExplorer.java ADD String ob FIELD
+RefactoringAction 1497002919598 PlanetExplorer.java RENAME ob=>String obstacles FIELD
+EditAction 1497002976803 PlanetExplorer.java 1424 2 5 0
