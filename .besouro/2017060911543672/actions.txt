@@ -38,3 +38,16 @@ CompilationAction 1497003333687 TestPlanetExplorer.java
 CompilationAction 1497003333688 TestPlanetExplorer.java
 CompilationAction 1497003333689 TestPlanetExplorer.java
 EditAction 1497003455790 PlanetExplorer.java 1647 3 5 0
+CompilationAction 1497003458709 PlanetExplorer.java
+CompilationAction 1497003458710 PlanetExplorer.java
+CompilationAction 1497003458712 PlanetExplorer.java
+CompilationAction 1497003458713 PlanetExplorer.java
+CompilationAction 1497003544654 PlanetExplorer.java
+CompilationAction 1497003544655 PlanetExplorer.java
+CompilationAction 1497003544656 PlanetExplorer.java
+CompilationAction 1497003545031 TestPlanetExplorer.java
+CompilationAction 1497003545032 TestPlanetExplorer.java
+CompilationAction 1497003545033 TestPlanetExplorer.java
+RefactoringAction 1497003567684 PlanetExplorer.java ADD void getFormatedCoordinates FIELD
+RefactoringAction 1497003569722 PlanetExplorer.java RENAME getFormatedCoordinates=>void getFormatedCoordinates() METHOD
+EditAction 1497003640060 PlanetExplorer.java 1797 4 8 0

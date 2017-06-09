@@ -25,13 +25,19 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	public void moveForth() throws PlanetExlorerException()
+	public void getFormatedCoordinates()
+	{
+		String ispis = null;
+		ispis = "(" + Integer.toString(x) + "," + Integer.toString(y) + "," + direction + ")";
+	}
+	
+	public void moveForth() throws PlanetExplorerException
 	{
 		if(this.direction == "N")
 			this.y++;
 		else if(this.direction == "W" || this.direction == "E")
 			this.x++;
-		else throw new("Nije moguce pomeranje napred");
+		//else ("Nije moguce pomeranje napred");
 	}
 	
 	public String executeCommand(String command){
