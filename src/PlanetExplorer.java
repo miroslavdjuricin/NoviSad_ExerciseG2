@@ -33,11 +33,19 @@ public class PlanetExplorer {
 	
 	public void moveForth() throws PlanetExplorerException
 	{
-		if(this.direction == "N")
+		if(this.direction == "N" || this.direction == "S")
 			this.y++;
 		else if(this.direction == "W" || this.direction == "E")
 			this.x++;
 		//else ("Nije moguce pomeranje napred");
+	}
+	
+	public void moveBack() throws PlanetExplorerException
+	{
+		if(this.direction == "N" || this.direction == "S")
+			this.y--;
+		else if(this.direction == "W" || this.direction == "E")
+			this.x--;
 	}
 	
 	public String executeCommand(String command){

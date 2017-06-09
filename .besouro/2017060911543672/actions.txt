@@ -51,3 +51,31 @@ CompilationAction 1497003545033 TestPlanetExplorer.java
 RefactoringAction 1497003567684 PlanetExplorer.java ADD void getFormatedCoordinates FIELD
 RefactoringAction 1497003569722 PlanetExplorer.java RENAME getFormatedCoordinates=>void getFormatedCoordinates() METHOD
 EditAction 1497003640060 PlanetExplorer.java 1797 4 8 0
+CompilationAction 1497003643116 TestPlanetExplorer.java
+CompilationAction 1497003643117 TestPlanetExplorer.java
+CompilationAction 1497003643118 TestPlanetExplorer.java
+CompilationAction 1497003690772 TestPlanetExplorer.java
+CompilationAction 1497003690775 TestPlanetExplorer.java
+CompilationAction 1497003690777 TestPlanetExplorer.java
+CompilationAction 1497003691067 TestPlanetExplorer.java
+RefactoringAction 1497004030936 TestPlanetExplorer.java ADD void asserteQuals(String, String, Object) METHOD
+RefactoringAction 1497004041178 TestPlanetExplorer.java REMOVE asserteQuals(String, String, Object) METHOD
+CompilationAction 1497004296128 TestPlanetExplorer.java
+CompilationAction 1497004296433 TestPlanetExplorer.java
+UnitTestCaseAction 1497004344041 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004344044 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004395534 TestPlanetExplorer.java ADD void test_moveBack FIELD
+RefactoringAction 1497004397563 TestPlanetExplorer.java RENAME test_moveBack=>void test_moveBack() METHOD
+CompilationAction 1497004641660 TestPlanetExplorer.java
+CompilationAction 1497004641661 TestPlanetExplorer.java
+RefactoringAction 1497004647361 TestPlanetExplorer.java ADD void assertEquals(String, String, Object) METHOD
+RefactoringAction 1497004661288 TestPlanetExplorer.java RENAME assertEquals(String, String, Object)=><initializer /1> null
+CompilationAction 1497004671053 TestPlanetExplorer.java
+CompilationAction 1497004671054 TestPlanetExplorer.java
+CompilationAction 1497004671254 TestPlanetExplorer.java
+CompilationAction 1497004671255 TestPlanetExplorer.java
+UnitTestCaseAction 1497004673053 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004673055 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004777344 PlanetExplorer.java ADD void moveBack FIELD
+RefactoringAction 1497004778881 PlanetExplorer.java RENAME moveBack=>void moveBack() METHOD
+EditAction 1497004926746 PlanetExplorer.java 2022 5 9 0
