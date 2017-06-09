@@ -58,7 +58,19 @@ public class PlanetExplorer {
 			this.direction = "E";
 		else if (direction == "E")
 			this.direction = "N";
-		else new throw ("Nije moguce pomeranje u levo");
+		
+	}
+	
+	public void moveRight() throws PlanetExplorerException
+	{
+		if (direction == "N")
+			this.direction = "E";
+		else if (direction == "E")
+			this.direction = "S";
+		else if (direction == "S")
+			this.direction = "W";
+		else if (direction == "W")
+			this.direction = "N";
 	}
 	
 	public String executeCommand(String command){

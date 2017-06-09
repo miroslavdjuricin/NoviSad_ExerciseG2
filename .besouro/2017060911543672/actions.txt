@@ -90,3 +90,17 @@ RefactoringAction 1497005523803 PlanetExplorer.java ADD void moveBack FIELD
 RefactoringAction 1497005524840 PlanetExplorer.java RENAME moveBack=>void moveBack()/2 METHOD
 RefactoringAction 1497005620510 PlanetExplorer.java RENAME moveBack()/2=>void moveLeft() METHOD
 EditAction 1497005697413 PlanetExplorer.java 2307 6 9 0
+CompilationAction 1497005700463 PlanetExplorer.java
+CompilationAction 1497005700464 TestPlanetExplorer.java
+RefactoringAction 1497005931478 TestPlanetExplorer.java ADD ovid test FIELD
+RefactoringAction 1497005965134 TestPlanetExplorer.java REMOVE test FIELD
+RefactoringAction 1497005966669 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497005969698 TestPlanetExplorer.java RENAME test=>void test_moveRight FIELD
+RefactoringAction 1497005972724 TestPlanetExplorer.java RENAME test_moveRight=>void test_moveRight() METHOD
+CompilationAction 1497006072327 TestPlanetExplorer.java
+CompilationAction 1497006072604 TestPlanetExplorer.java
+CompilationAction 1497006072605 TestPlanetExplorer.java
+UnitTestCaseAction 1497006074588 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006074589 TestPlanetExplorer.java FAIL
+RefactoringAction 1497006101815 PlanetExplorer.java ADD void moveRight() METHOD
+EditAction 1497006265129 PlanetExplorer.java 2534 7 11 0
