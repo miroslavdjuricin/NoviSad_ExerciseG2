@@ -33,3 +33,8 @@ CompilationAction 1497003167904 TestPlanetExplorer.java
 CompilationAction 1497003167905 TestPlanetExplorer.java
 RefactoringAction 1497003300637 PlanetExplorerException.java ADD PlanetExplorerException(String) METHOD
 EditAction 1497003330158 PlanetExplorerException.java 145 1 1 0
+CompilationAction 1497003333686 TestPlanetExplorer.java
+CompilationAction 1497003333687 TestPlanetExplorer.java
+CompilationAction 1497003333688 TestPlanetExplorer.java
+CompilationAction 1497003333689 TestPlanetExplorer.java
+EditAction 1497003455790 PlanetExplorer.java 1647 3 5 0

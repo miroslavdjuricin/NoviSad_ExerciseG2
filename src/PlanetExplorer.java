@@ -25,12 +25,13 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	public void moveForth() throws PlanetExlorerException
+	public void moveForth() throws PlanetExlorerException()
 	{
 		if(this.direction == "N")
 			this.y++;
-		if(this.direction == "W")
+		else if(this.direction == "W" || this.direction == "E")
 			this.x++;
+		else throw new("Nije moguce pomeranje napred");
 	}
 	
 	public String executeCommand(String command){
