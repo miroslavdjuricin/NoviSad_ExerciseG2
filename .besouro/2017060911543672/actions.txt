@@ -79,3 +79,5 @@ UnitTestSessionAction 1497004673055 TestPlanetExplorer.java FAIL
 RefactoringAction 1497004777344 PlanetExplorer.java ADD void moveBack FIELD
 RefactoringAction 1497004778881 PlanetExplorer.java RENAME moveBack=>void moveBack() METHOD
 EditAction 1497004926746 PlanetExplorer.java 2022 5 9 0
+CompilationAction 1497004929839 TestPlanetExplorer.java
+EditAction 1497004965856 PlanetExplorer.java 1982 5 9 0

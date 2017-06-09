@@ -37,7 +37,7 @@ public class PlanetExplorer {
 			this.y++;
 		else if(this.direction == "W" || this.direction == "E")
 			this.x++;
-		//else ("Nije moguce pomeranje napred");
+		
 	}
 	
 	public void moveBack() throws PlanetExplorerException
